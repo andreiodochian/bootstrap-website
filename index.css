@@ -1,0 +1,136 @@
+#navbar{
+    background-color: #03071e;
+}
+
+#logo{
+    color: #ffd500;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.navbar-brand:hover{
+    color: #ffd500;
+}
+
+.navbar-brand span{
+    color: #c86bfa;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+#expandme{
+    transition: 0.3s;
+}
+
+#expandme .nav-link:hover{
+    color: #c86bfa;
+}
+
+.nav-link{
+    transition: 0.5s;
+}
+
+#navbar-form button{
+    transition: 0.5s;
+    background-color: #c86bfa;
+}
+
+#navbar-form button:hover{
+    background-color: #ffd500;
+    color: #03071e;
+}
+
+#section-one{
+    margin-top: 2.9rem;
+}
+
+#section-one-text{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+#section-one-text span{
+    color: #c86bfa;
+}
+
+@media (min-width: 761px) and (max-width: 1200px){
+    #section-one-text{
+        font-size: 1.9rem;
+    }
+}
+
+#section-title{
+    font-size: 2em;
+}
+
+#section-lead{
+    font-size: 1em;
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    #section-title{
+        font-size: 2.3em;
+    }
+
+    #section-lead{
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+    #section-title{
+        font-size: 2em;
+    }
+
+    #section-lead{
+        font-size: 1em;
+    }
+}
+
+.btn-primary{
+    background-color: #fdc500;
+    border: none;
+    color: #03071e;
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    background-color: #03071e;
+    transform: scale(1.1);
+}
+
+.btn-primary:active{
+    background-color: #03071e !important;
+    transform: scale(1);
+}
+
+.btn-primary:focus{
+    background-color: #03071e !important;
+}
+
+@media (min-width:1025px) and (max-width: 1280px){
+    #section-title{
+        font-size: 2.4em;
+    }
+
+    #section-lead{
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width:1281px){
+    #section-title{
+        font-size: 2.5em;
+    }
+
+    #section-lead{
+        font-size: 1.8em;
+    }
+}
+
